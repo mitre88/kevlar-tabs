@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.6.0](https://github.com/neolitec/kevlar-tabs/compare/v1.5.2...v1.6.0) (2026-08-14)
+
+
+### Features
+
+* adopt ESLint 10 by replacing eslint-plugin-react ([#133](https://github.com/neolitec/kevlar-tabs/issues/133)) ([1e71df0](https://github.com/neolitec/kevlar-tabs/commit/1e71df0fc5ff414f462245ff47d84eb77a38213f)), closes [#119](https://github.com/neolitec/kevlar-tabs/issues/119)
+* build on TypeScript 7 with the side-by-side TS 6 API ([#135](https://github.com/neolitec/kevlar-tabs/issues/135)) ([cd89d63](https://github.com/neolitec/kevlar-tabs/commit/cd89d63a128b0221a48073ec02264f7e530828f9))
+* support React 19 ([#113](https://github.com/neolitec/kevlar-tabs/issues/113)) ([87110c5](https://github.com/neolitec/kevlar-tabs/commit/87110c53d27bc0be13f11ab9fa11bc952f9c9e8f))
+
+
+### Bug Fixes
+
+* **docs:** inline the Astro tsconfig preset to stop the root-level noise ([#132](https://github.com/neolitec/kevlar-tabs/issues/132)) ([53b2e33](https://github.com/neolitec/kevlar-tabs/commit/53b2e336f8ef19d0f27be674310b17f71792eda5)), closes [#126](https://github.com/neolitec/kevlar-tabs/issues/126)
+* repair the docs build and close the gap that let it break ([#103](https://github.com/neolitec/kevlar-tabs/issues/103)) ([83ff28a](https://github.com/neolitec/kevlar-tabs/commit/83ff28a0f889dddc102058d89849c50ab6cc2d0e))
+* stop reading refs during render and syncing props via an effect ([#122](https://github.com/neolitec/kevlar-tabs/issues/122)) ([adc724e](https://github.com/neolitec/kevlar-tabs/commit/adc724e6a45bd5c466ca70ecb69b8e4a04fa1287))
+* unbreak the Ladle dev server by dropping the root react plugin ([#129](https://github.com/neolitec/kevlar-tabs/issues/129)) ([954bc66](https://github.com/neolitec/kevlar-tabs/commit/954bc66e8fb9882046ad7122d0ebcd356478a6fa))
+
 ## [1.5.2](https://github.com/neolitec/kevlar-tabs/compare/v1.5.1...v1.5.2) (2024-10-04)
 
 
